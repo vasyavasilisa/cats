@@ -17,7 +17,6 @@ foreach ($cats as $cat) {
     $ageSum += $cat->getAge();
     $multiplication *= $cat->getAge();
 }
-
 echo "$ageSum\n$multiplication\n";
 
 //3
