@@ -6,7 +6,7 @@ $hairColors = ["black", "white", "grey", "ginger"];
 $ages = [2, 3, 1, 1, 1];
 $name = "Tom";
 $cats = array();
-for ($i = 0; $i < 5; $i++) {
+for ($i = 0; $i < 7; $i++) {
     $cats[] = new Cat($name, $ages[$i], $hairColors);
 }
 
